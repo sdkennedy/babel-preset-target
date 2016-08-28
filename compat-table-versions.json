@@ -253,7 +253,7 @@
 	},
 	"safari51": {
 		"name": "safari",
-		"version": "51"
+		"version": "5"
 	},
 	"safari6": {
 		"name": "safari",
@@ -272,10 +272,6 @@
 		"version": "9"
 	},
 	"safari10": {
-		"name": "safari",
-		"version": "10"
-	},
-	"safaritp": {
 		"name": "safari",
 		"version": "10"
 	},
