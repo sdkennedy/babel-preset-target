@@ -1,0 +1,103 @@
+{
+  "check-es2015-constants": {},
+  "transform-es2015-arrow-functions": {
+    "canIUse": ["arrow-functions"],
+    "ct": ["arrow functions"]
+  },
+  "transform-es2015-block-scoped-functions": {
+    "ct": ["block-level function declaration"]
+  },
+  "transform-es2015-block-scoping": {
+    "canIUse": ["const", "let"],
+    "ct": ["const", "let"]
+  },
+  "transform-es2015-classes": {
+    "ct": ["class"]
+  },
+  "transform-es2015-computed-properties": {
+    "ct": [
+      "object literal extensions"
+    ]
+  },
+  "transform-es2015-destructuring": {
+    "ct": [
+      "destructuring, declarations",
+      "destructuring, assignment",
+      "destructuring, parameters"
+    ]
+  },
+  "transform-es2015-duplicate-keys": {
+  },
+  "transform-es2015-for-of": {
+    "ct": [
+      "for..of loops"
+    ]
+  },
+  "transform-es2015-function-name": {
+    "ct": [
+      "function \"name\" property"
+    ]
+  },
+  "transform-es2015-literals": {},
+  "transform-es2015-modules-commonjs": {},
+  "transform-es2015-object-super": {},
+  "transform-es2015-parameters": {
+    "ct": [
+      "destructuring, parameters",
+      "nested rest destructuring, parameters",
+      "rest parameters",
+      "default function parameters"
+    ]
+  },
+  "transform-es2015-shorthand-properties": {
+    "ct": [
+      "object literal extensions"
+    ]
+  },
+  "transform-es2015-spread": {
+    "ct": [
+      "spread (...) operator"
+    ]
+  },
+  "transform-es2015-sticky-regex": {
+    "ct": [
+      "RegExp \"y\" and \"u\" flags"
+    ]
+  },
+  "transform-es2015-template-literals": {
+    "ct": [
+      "template literals"
+    ]
+  },
+  "transform-es2015-typeof-symbol": {
+    "ct": [
+      "Symbol"
+    ]
+  },
+  "transform-es2015-unicode-regex": {
+    "ct": [
+      "RegExp \"y\" and \"u\" flags",
+      "RegExp syntax extensions"
+    ]
+  },
+  "transform-regenerator": {
+    "ct": [
+      "generators"
+    ]
+  },
+  "transform-exponentiation-operator": {
+    "ct": [
+      "exponentiation (**) operator"
+    ]
+  },
+  "syntax-trailing-function-commas": {
+    "ct": [
+      "Object/array literal extensions"
+    ]
+  },
+  "transform-async-to-generator": {
+    "ct": [
+      "async functions"
+    ]
+  }
+}

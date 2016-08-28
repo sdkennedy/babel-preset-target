@@ -1,0 +1,350 @@
+{
+	"ie10": {
+		"name": "ie",
+		"version": "10"
+	},
+	"ie11": {
+		"name": "ie",
+		"version": "11"
+	},
+	"edge12": {
+		"name": "edge",
+		"version": "12"
+	},
+	"edge13": {
+		"name": "edge",
+		"version": "13"
+	},
+	"edge14": {
+		"name": "edge",
+		"version": "14"
+	},
+	"firefox4": {
+		"name": "firefox",
+		"version": "4"
+	},
+	"firefox6": {
+		"name": "firefox",
+		"version": "6"
+	},
+	"firefox7": {
+		"name": "firefox",
+		"version": "7"
+	},
+	"firefox10": {
+		"name": "firefox",
+		"version": "10"
+	},
+	"firefox13": {
+		"name": "firefox",
+		"version": "13"
+	},
+	"firefox16": {
+		"name": "firefox",
+		"version": "16"
+	},
+	"firefox17": {
+		"name": "firefox",
+		"version": "17"
+	},
+	"firefox18": {
+		"name": "firefox",
+		"version": "18"
+	},
+	"firefox23": {
+		"name": "firefox",
+		"version": "23"
+	},
+	"firefox24": {
+		"name": "firefox",
+		"version": "24"
+	},
+	"firefox25": {
+		"name": "firefox",
+		"version": "25"
+	},
+	"firefox27": {
+		"name": "firefox",
+		"version": "27"
+	},
+	"firefox28": {
+		"name": "firefox",
+		"version": "28"
+	},
+	"firefox29": {
+		"name": "firefox",
+		"version": "29"
+	},
+	"firefox30": {
+		"name": "firefox",
+		"version": "30"
+	},
+	"firefox31": {
+		"name": "firefox",
+		"version": "31"
+	},
+	"firefox32": {
+		"name": "firefox",
+		"version": "32"
+	},
+	"firefox33": {
+		"name": "firefox",
+		"version": "33"
+	},
+	"firefox34": {
+		"name": "firefox",
+		"version": "34"
+	},
+	"firefox35": {
+		"name": "firefox",
+		"version": "35"
+	},
+	"firefox36": {
+		"name": "firefox",
+		"version": "36"
+	},
+	"firefox37": {
+		"name": "firefox",
+		"version": "37"
+	},
+	"firefox38": {
+		"name": "firefox",
+		"version": "38"
+	},
+	"firefox39": {
+		"name": "firefox",
+		"version": "39"
+	},
+	"firefox40": {
+		"name": "firefox",
+		"version": "40"
+	},
+	"firefox41": {
+		"name": "firefox",
+		"version": "41"
+	},
+	"firefox42": {
+		"name": "firefox",
+		"version": "42"
+	},
+	"firefox43": {
+		"name": "firefox",
+		"version": "43"
+	},
+	"firefox44": {
+		"name": "firefox",
+		"version": "44"
+	},
+	"firefox45": {
+		"name": "firefox",
+		"version": "45"
+	},
+	"firefox46": {
+		"name": "firefox",
+		"version": "46"
+	},
+	"firefox47": {
+		"name": "firefox",
+		"version": "47"
+	},
+	"firefox48": {
+		"name": "firefox",
+		"version": "48"
+	},
+	"firefox49": {
+		"name": "firefox",
+		"version": "49"
+	},
+	"firefox50": {
+		"name": "firefox",
+		"version": "50"
+	},
+	"chrome": {
+		"name": "chrome",
+		"version": "19"
+	},
+	"chrome30": {
+		"name": "chrome",
+		"version": "30"
+	},
+	"chrome31": {
+		"name": "chrome",
+		"version": "31"
+	},
+	"chrome33": {
+		"name": "chrome",
+		"version": "33"
+	},
+	"chrome34": {
+		"name": "chrome",
+		"version": "34"
+	},
+	"chrome35": {
+		"name": "chrome",
+		"version": "35"
+	},
+	"chrome36": {
+		"name": "chrome",
+		"version": "36"
+	},
+	"chrome37": {
+		"name": "chrome",
+		"version": "37"
+	},
+	"chrome38": {
+		"name": "chrome",
+		"version": "38"
+	},
+	"chrome39": {
+		"name": "chrome",
+		"version": "39"
+	},
+	"chrome40": {
+		"name": "chrome",
+		"version": "40"
+	},
+	"chrome41": {
+		"name": "chrome",
+		"version": "41"
+	},
+	"chrome42": {
+		"name": "chrome",
+		"version": "42"
+	},
+	"chrome43": {
+		"name": "chrome",
+		"version": "43"
+	},
+	"chrome44": {
+		"name": "chrome",
+		"version": "44"
+	},
+	"chrome45": {
+		"name": "chrome",
+		"version": "45"
+	},
+	"chrome46": {
+		"name": "chrome",
+		"version": "46"
+	},
+	"chrome47": {
+		"name": "chrome",
+		"version": "47"
+	},
+	"chrome48": {
+		"name": "chrome",
+		"version": "48"
+	},
+	"chrome49": {
+		"name": "chrome",
+		"version": "49"
+	},
+	"chrome50": {
+		"name": "chrome",
+		"version": "50"
+	},
+	"chrome51": {
+		"name": "chrome",
+		"version": "51"
+	},
+	"chrome52": {
+		"name": "chrome",
+		"version": "52"
+	},
+	"safari51": {
+		"name": "safari",
+		"version": "51"
+	},
+	"safari6": {
+		"name": "safari",
+		"version": "6"
+	},
+	"safari7": {
+		"name": "safari",
+		"version": "7"
+	},
+	"safari71_8": {
+		"name": "safari",
+		"version": "8"
+	},
+	"safari9": {
+		"name": "safari",
+		"version": "9"
+	},
+	"safari10": {
+		"name": "safari",
+		"version": "10"
+	},
+	"safaritp": {
+		"name": "safari",
+		"version": "10"
+	},
+	"opera": {
+		"name": "opera",
+		"version": "12.16"
+	},
+	"phantom": {
+		"name": "phantom",
+		"version": "2.0"
+	},
+	"node012": {
+		"name": "node",
+		"version": "0.12"
+	},
+	"iojs": {
+		"name": "iojs",
+		"version": "3.3"
+	},
+	"node4": {
+		"name": "node",
+		"version": "4"
+	},
+	"node5": {
+		"name": "node",
+		"version": "5"
+	},
+	"node6": {
+		"name": "node",
+		"version": "6"
+	},
+	"android40": {
+		"name": "android",
+		"version": "40"
+	},
+	"android41": {
+		"name": "android",
+		"version": "41"
+	},
+	"android42": {
+		"name": "android",
+		"version": "42"
+	},
+	"android43": {
+		"name": "android",
+		"version": "43"
+	},
+	"android44": {
+		"name": "android",
+		"version": "44"
+	},
+	"android50": {
+		"name": "android",
+		"version": "50"
+	},
+	"android51": {
+		"name": "android",
+		"version": "51"
+	},
+	"ios7": {
+		"name": "ios",
+		"version": "7"
+	},
+	"ios8": {
+		"name": "ios",
+		"version": "8"
+	},
+	"ios9": {
+		"name": "ios",
+		"version": "9"
+	}
+}

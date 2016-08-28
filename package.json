@@ -1,0 +1,39 @@
+{
+  "name": "babel-preset-target",
+  "version": "0.0.1",
+  "description": "Creates a developement babel distribution for a specific target that only include presets necessary for that target.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/babel-cli/bin/babel.js src -d lib",
+    "test": "./node_modules/babel-cli/bin/babel-node test/index.js"
+  },
+  "author": "Scott Kennedy <scott@scottkennedy.ca>",
+  "repository": "sdkennedy/babel-preset-target",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-syntax-trailing-function-commas": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-es2015-for-of": "^6.8.0",
+    "babel-plugin-transform-es2015-function-name": "^6.9.0",
+    "babel-plugin-transform-es2015-literals": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-plugin-transform-es2015-object-super": "^6.8.0",
+    "babel-plugin-transform-es2015-parameters": "^6.11.4",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.8.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.8.0",
+    "babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.11.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.14.0",
+    "caniuse-db": "^1.0.30000526",
+    "compat-table": "git+https://github.com/kangax/compat-table.git#gh-pages"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "eslint-config-uber": "github:sdkennedy/eslint-config-uber",
+    "tape": "^4.6.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-uber/babel",
+  "rules": {
+    "max-len": [2, 150],
+    "func-style": [2, "declaration", { "allowArrowFunctions": true }]
+  }
+}
