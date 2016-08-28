@@ -53,19 +53,19 @@ require("babel-core").transform("code", {
   * If no targets are defined, all plugins are included.
   
 ### Supported targets
-| name    | versions                      |
-| ------- | ----------------------------- |
-| ie      | 10 - 11                       |
-| edge    | 12 - 14                       |
-| firefox | 4, 6, 7, 10, 13, 16-18, 23-50 |
-| chrome  | 19, 30, 31, 33 - 52           |
-| safari  | 5 - 10                        |
-| opera   | 12.16                         |
-| phantom | 2                             |
-| node    | 0.12, 4 - 6                   |
-| iojs    | 3.3                           |
-| android | 40 - 44, 50, 51               |
-| ios     | 7 - 9                         |
+| name    | versions                      | notes |
+| ------- | ----------------------------- | ------------------------ |
+| ie      | 10 - 11                       |                          |
+| edge    | 12 - 14                       |                          |
+| firefox | 4, 6, 7, 10, 13, 16-18, 23-50 |                          |
+| chrome  | 19, 30, 31, 33 - 52           |                          |
+| safari  | 5 - 10                        |                          |
+| opera   | 12.16                         |                          |
+| phantom | 2                             |                          |
+| node    | 0.12, 4 - 6                   | requires --harmony flag  |
+| iojs    | 3.3                           |                          |
+| android | 40 - 44, 50, 51               |                          |
+| ios     | 7 - 9                         |                          |
 
 ### Example Options
 ```
