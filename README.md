@@ -44,7 +44,7 @@ require("babel-core").transform("code", {
 
 ## Options
 
-* `presets` - Allows for specific office presets to be defined. Only plugins within the preset that are necessary will be included.
+* `presets` - Allows for specific offical presets to be defined. Only plugins within the preset that are necessary will be included.
   * Can be array of any of `["es2015", "es2016", "es2017"]`
   * Currently doesn't support es2015 options
 * `plugins` - Array of any plugins to be conditionally added
