@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-target",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Creates a developement babel distribution for a specific target that only include presets necessary for that target.",
   "main": "lib/index.js",
   "scripts": {
