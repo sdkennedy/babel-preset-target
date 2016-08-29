@@ -40,7 +40,8 @@
     "babel-plugin-transform-exponentiation-operator": "^6.8.0",
     "babel-plugin-transform-regenerator": "^6.14.0",
     "caniuse-db": "^1.0.30000526",
-    "compat-table": "git+https://github.com/kangax/compat-table.git#gh-pages"
+    "compat-table": "git+https://github.com/kangax/compat-table.git#gh-pages",
+    "core-js": "^2.4.1"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
