@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const availablePresets = require('../presets.json');
 const defaultRequirements = require('../plugin-requirements.json');
+const pluginsTransformSyntax = require('../plugins-transform-syntax.json');
 const canIUse = require('./caniuse');
 const compatTable = require('./compat-table');
 const {bind: $, average, identity} = require('./util');
@@ -99,7 +100,16 @@ module.exports = function preset(context, options = {}) {
   const allPlugins = getPresetPlugins(plugins, presets);
   return {
     plugins: allPlugins
-      .filter($(targetsRequirePlugin, requirements, targets))
+      .reduce((acc, plugin) => {
+        if (targetsRequirePlugin(requirements, targets, plugin)) {
+          // Plugin is required
+          return [...acc, plugin];
+        } else if (pluginsTransformSyntax[plugin]) {
+          // Plugin is not required but we should still include the syntax parsing plugin
+          return [...acc, ...pluginsTransformSyntax[plugin]];
+        }
+        return acc;
+      }, [])
       .map(resolvePlugins ? requirePlugin : identity)
   };
 };

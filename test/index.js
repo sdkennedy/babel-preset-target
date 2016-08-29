@@ -174,3 +174,21 @@ test('babelPresetTarget es[2015-2017] preset support', assert => {
   );
   assert.end();
 });
+
+test('babelPresetTarget supported feature with required syntax plugin', assert => {
+  assert.deepEqual(
+    babelPresetTarget(
+      undefined,
+      {
+        resolvePlugins: false,
+        plugins: ["transform-exponentiation-operator"],
+        targets: [
+          {name: "chrome", version: 52}
+        ]
+      }
+    ),
+    {plugins: ["syntax-exponentiation-operator"]},
+    'should syntax plugin if transform is supported'
+  );
+  assert.end();
+});

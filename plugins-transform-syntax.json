@@ -1,0 +1,14 @@
+{
+  "transform-regenerator": ["syntax-async-generators", "syntax-function-sent", "syntax-async-functions"],
+  "transform-async-to-generator": ["syntax-async-generators", "syntax-async-functions"],
+  "transform-async-to-module-method": ["syntax-async-generators", "syntax-async-functions"],
+  "transform-class-properties": ["syntax-class-properties"],
+  "transform-decorators": ["syntax-decorators"],
+  "transform-do-expressions": ["syntax-do-expressions"],
+  "transform-export-extensions": ["syntax-export-extensions"],
+  "transform-flow-strip-types": ["syntax-flow"],
+  "transform-function-bind": ["syntax-function-bind"],
+  "transform-react-jsx": ["syntax-jsx"],
+  "transform-object-rest-spread": ["syntax-object-rest-spread"],
+  "transform-exponentiation-operator": ["syntax-exponentiation-operator"]
+}
