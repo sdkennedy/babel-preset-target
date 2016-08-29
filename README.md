@@ -51,6 +51,7 @@ require("babel-core").transform("code", {
 * `targets` - Array of enviroment targets. If all targets support a given plugin then the plugin will be skipped.
   * Each target looks like: `{name: 'chrome', version: 52}`
   * If no targets are defined, all plugins are included.
+  * If no feature support information is available for a version, we will fallback to the previous available version and throw a warning.
   
 ### Supported targets
 | name    | versions                      | notes |
