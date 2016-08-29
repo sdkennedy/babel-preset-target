@@ -100,7 +100,11 @@ module.exports.query = function query(name, version, feature) {
         return undefined;
     }
 
-    const {subtests} = test;
+    const {subtests = []} = test;
+    if (test.res) {
+      subtests.push(test);
+    }
+
     // Look for exact version
     const exactOutput = buildExactOutput(subtests, name, version);
     if (exactOutput) {
