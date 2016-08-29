@@ -46,6 +46,7 @@ function buildExactOutput(subtests, name, version) {
     return undefined;
 }
 
+// Get the latest version that is less than the specified version
 function getLatestKey(subtests, needleName, needleVersion) {
     if (subtests.length === 0) {
         return undefined;
@@ -66,7 +67,7 @@ function getLatestKey(subtests, needleName, needleVersion) {
           (acc, possibleKey) => {
               const [accVersion, accKey] = acc;
               const possibleVersion = parseFloat(rawVersionMap[possibleKey].version);
-              if(possibleVersion > accVersion) {
+              if(possibleVersion > accVersion && needleVersion > accVersion) {
                   return [possibleVersion, possibleKey];
               }
               return acc;
@@ -74,7 +75,7 @@ function getLatestKey(subtests, needleName, needleVersion) {
           [0, null]
         );
     // needle version is higher than the highest version we have info for
-    if (highestKey && needleVersion > highestVersion) {
+    if (highestKey) {
         return [highestKey, highestVersion];
     }
     return undefined;
