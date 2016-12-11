@@ -1,3 +1,9 @@
+# No Maintenance Intended
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+This project is no longer actively maintained. [babel-preset-env](https://github.com/babel/babel-preset-env) has done a great job taking this concept even further. I'm going to plan on helping out there where I can.
+
 # babel-preset-target
 
 > Babel preset that allows for target environments to be specified along with plugins and presets. If all environments have native support for a given plugin, it will be skipped.
